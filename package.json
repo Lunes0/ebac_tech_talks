@@ -2,6 +2,7 @@
   "name": "modulo-21---landing-page",
   "version": "1.0.0",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.14.4",
-    "sass": "^1.87.0"
+    "sass": "^1.87.0",
+    "svgo": "^3.3.2"
   }
 }
